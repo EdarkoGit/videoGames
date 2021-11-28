@@ -76,6 +76,7 @@ __IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento NO pueden ut
   - GET https://api.rawg.io/api/games?search={game}
   - GET https://api.rawg.io/api/genres
   - GET https://api.rawg.io/api/games/{id}
+  - GET https://api.rawg.io/api/platforms
 
 ### Requerimientos mínimos:
 
