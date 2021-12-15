@@ -4,7 +4,7 @@ const { Videogame } = require("../db");
 const { API_KEY } = process.env;
 const videogames = Router();
 
-videogames.get("/", (req, res) => res.json("hola"));
+/* videogames.get("/", (req, res) => res.json("hola")); */
 videogames.get("/", async (req, res, next) => {
   const { word } = req.query;
   try {
