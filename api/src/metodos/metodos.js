@@ -1,5 +1,5 @@
 const axios = require('axios')
-const {Genre,Videogame} = require('../db')
+const {Videogame} = require('../db')
 const {API_KEY} = process.env;
 
 const getRelation= async (element,param)=>{
